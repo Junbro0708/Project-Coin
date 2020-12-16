@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{C420E622-E211-D2CD-AF26-1C2414CEE3A0}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/5Scripts/Quad Game/GameManagerLogic.cs">
+    <Files>
+      <File FileName="Assets/5Scripts/Quad Game/Player.cs" Line="74" Column="45" />
+      <File FileName="Assets/5Scripts/Quad Game/Item.cs" Line="7" Column="27" />
+      <File FileName="Assets/5Scripts/Quad Game/GameManagerLogic.cs" Line="26" Column="37" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProjectCoin" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="5Scripts" expanded="True">
+                <Node name="Quad Game" expanded="True">
+                  <Node name="GameManagerLogic.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5e947f9d-7f98-4f0e-89d9-f0aff39751de" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

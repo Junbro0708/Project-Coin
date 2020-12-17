@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/1GameScenes/Ball Game Scene/GameScene1_0.unity
-    guid: 17ff5b3c0884a4a3f83038eebe260cb6
-  - enabled: 1
-    path: Assets/1GameScenes/Ball Game Scene/GameScene1_1.unity
-    guid: 1937c352c8eb94eef82078c6429d0852
-  - enabled: 1
-    path: Assets/1GameScenes/Ball Game Scene/GameScene1_2.unity
-    guid: 58186eb580dc24689862f85c77c395b8
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

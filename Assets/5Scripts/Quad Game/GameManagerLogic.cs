@@ -14,12 +14,22 @@ public class GameManagerLogic : MonoBehaviour
     public GameObject myScore;
     public GameObject rivalScore;
 
-    public void Update()
+    private void Update()
     {
         mycoin.text = player.coin.ToString();
     }
 
     public void GameStart()
+    {
+        menuPanel.SetActive(false);
+        gamePlayer.SetActive(true);
+        rivalPlayer.SetActive(true);
+        coinImage.SetActive(true);
+        myScore.SetActive(true);
+        rivalScore.SetActive(true);
+    }
+
+    public void JoinGame()
     {
         menuPanel.SetActive(false);
         gamePlayer.SetActive(true);

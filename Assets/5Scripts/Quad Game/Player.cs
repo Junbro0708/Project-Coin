@@ -24,7 +24,6 @@ public class Player : MonoBehaviour
     bool jDown;
     bool isJump = false;
     bool isDodge;
-    bool isSwap; // 캐릭터 이동과 조작 변수
 
     void Awake()
     {
@@ -77,9 +76,6 @@ public class Player : MonoBehaviour
     {
         moveVec = new Vector3(hAxis, 0, vAxis).normalized;
 
-        if (isSwap)
-            moveVec = Vector3.zero;
-
         if (isDodge)
             moveVec = dodgeVec;
 
@@ -95,7 +91,7 @@ public class Player : MonoBehaviour
     } // 캐릭터 회전 함수
     void Jump()
     {
-        if (jDown && moveVec == Vector3.zero && !isJump && !isDodge && !isSwap)
+        if (jDown && moveVec == Vector3.zero && !isJump && !isDodge)
         {
             rigid.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
             anim.SetBool("isJump", true);
@@ -105,7 +101,7 @@ public class Player : MonoBehaviour
     }
     void Dodge()
     {
-        if(jDown && moveVec != Vector3.zero && !isJump && !isDodge && !isSwap)
+        if(jDown && moveVec != Vector3.zero && !isJump && !isDodge)
         {
             dodgeVec = moveVec;
             moveSpeed *= 2;

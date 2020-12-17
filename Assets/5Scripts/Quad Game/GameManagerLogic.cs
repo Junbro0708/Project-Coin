@@ -14,6 +14,10 @@ public class GameManagerLogic : MonoBehaviour
     public GameObject myScore;
     public GameObject rivalScore;
 
+    public GameObject chattingBox;
+    public GameObject enterText;
+    public GameObject enterKey; // 채팅창
+
     private void Update()
     {
         mycoin.text = player.coin.ToString();
@@ -27,6 +31,9 @@ public class GameManagerLogic : MonoBehaviour
         coinImage.SetActive(true);
         myScore.SetActive(true);
         rivalScore.SetActive(true);
+        chattingBox.SetActive(true);
+        enterText.SetActive(true);
+        enterKey.SetActive(true);
     }
 
     public void JoinGame()
@@ -37,5 +44,8 @@ public class GameManagerLogic : MonoBehaviour
         coinImage.SetActive(true);
         myScore.SetActive(true);
         rivalScore.SetActive(true);
+        chattingBox.SetActive(true);
+        enterText.SetActive(true);
+        enterKey.SetActive(true);
     }
 }

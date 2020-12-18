@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
 
     Animator anim;
     Rigidbody rigid;
+    AudioSource audio;
     GameObject nearObject;
     GameManagerLogic manager;
 
@@ -29,6 +30,7 @@ public class Player : MonoBehaviour
     {
         anim = GetComponentInChildren<Animator>();
         rigid = GetComponent<Rigidbody>();
+        audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -57,6 +59,7 @@ public class Player : MonoBehaviour
             {
                     case Item.Type.Coin:
                     coin += item.value;
+                    audio.Play();
                     if (coin > maxCoin)
                         coin = maxCoin;
                     

@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\5Scripts\Quad Game\CoinManager.cs" />
     <Compile Include="Assets\5Scripts\Quad Game\GameManagerLogic.cs" />
     <Compile Include="Assets\5Scripts\Quad Game\Item.cs" />
     <Compile Include="Assets\5Scripts\Quad Game\Orbit.cs" />

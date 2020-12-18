@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/1GameScenes/Quater View Game/Coin Game.unity
+    guid: 22a14067436ea4042bd2a4d97dcee796
   m_configObjects: {}
